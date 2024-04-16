@@ -27,7 +27,7 @@ public class Controller {
     }
 
     // Sletter alle lagrede billetter fra databasen
-    @DeleteMapping("/slettAlleBilletter")
+    @DeleteMapping ("/slettAlleBilletter")
     public void slettAlleBilletter() {
         repository.slettAlleBilletter();
     }
