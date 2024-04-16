@@ -19,7 +19,7 @@ public class BillettRepository {
     }
 
     public List<Kinobillett> hentAlleBilletter() {
-        String sql = "SELECT * FROM Kinobillett";
+        String sql = "SELECT * FROM Kinobillett ORDER BY etternavn";
         List<Kinobillett> alleBilletter = db.query(sql, new BeanPropertyRowMapper(Kinobillett.class));
         return alleBilletter;
     }
