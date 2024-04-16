@@ -25,7 +25,7 @@ public class BillettRepository {
     }
 
     public void slettAlleBilletter() {
-        String sql = "DELETE FROM Kunde";
+        String sql = "DELETE FROM Kinobillett";
         db.update(sql);
     }
 }
