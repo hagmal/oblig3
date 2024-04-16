@@ -17,3 +17,6 @@ Har også med inputvalideringer.
 Oblig 2: Flyttet lagring til tjener/server. Med get og postmapping. Sletter billettene med deletemapping.
 
 Oblig 3: Erstattet arrayet på tjener/server med en tabell i en relasjonsdatabase. Listen med billetter som sendes fra tjener/server til klient er sortert på etternavn. Har også mulighet for å slette alle billettene i databasen.
+
+https://github.com/hagmal/oblig3/assets/143171740/29e735c7-a152-47dc-85d9-c46b9f4e5fc6
+
