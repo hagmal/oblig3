@@ -19,7 +19,7 @@ public class Kinobillett {
         this.epost = epost;
     }
 
-    // Tom konstruktør
+    // Tom konstruktør, for at man skal kunne bruke BeanPropertyRowMapper
     public Kinobillett() {}
 
     // Gettere og settere for attributtene

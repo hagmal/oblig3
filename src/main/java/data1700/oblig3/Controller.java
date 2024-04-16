@@ -1,5 +1,6 @@
 package data1700.oblig3;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -10,6 +11,9 @@ import java.util.List;
 
 @RestController
 public class Controller {
+    @Autowired
+    BillettRepository rep;
+
     // Liste som lagrer alle billettene (array)
     public final List<Kinobillett> alleBilletter = new ArrayList<>();
 
