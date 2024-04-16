@@ -16,4 +16,4 @@ Har også med inputvalideringer.
 
 Oblig 2: Flyttet lagring til tjener/server. Med get og postmapping. Sletter billettene med deletemapping.
 
-Oblig 3: Erstattet arrayet på tjener/server med en tabell i en relasjonsdatabase. Listen med billetter som sendes fra tjener/server til klient skal være sortert på etternavn.
+Oblig 3: Erstattet arrayet på tjener/server med en tabell i en relasjonsdatabase. Listen med billetter som sendes fra tjener/server til klient er sortert på etternavn. Har også mulighet for å slette alle billettene i databasen.
